@@ -33,11 +33,12 @@ header {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 30px;
+    font-size: 22px;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color:#74f0a2;
     border-radius: 10px;
     padding: 9px;
     transition: all .5s;
@@ -87,8 +88,8 @@ font-family: 'Signika Negative', sans-serif;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 139px;
-    margin-left: 9%;
+    margin-top: 130px;
+    margin-left: 10%;
 }
 
 .a00{
@@ -96,11 +97,11 @@ font-family: 'Signika Negative', sans-serif;
 }
 
 
-.a00:hover {
-    background-color:#8acbe7 ;
+.a00:hover { ;
     font-weight: bold;
     padding: 10px 10px;
     transition: all .5s;
+    color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -134,7 +135,7 @@ h2 {
 
     color: #74f0a2;
     margin-top: 10px;
-    margin-left: 800px;
+    margin-left: 710px;
     font-size: 18px;
 }
 
@@ -149,6 +150,7 @@ h2 {
     width: 90%;
     margin-left: 60px;
     margin-top: 5px;
+    margin-bottom: 20px;
 
 }
 .h1_2{
@@ -157,21 +159,20 @@ h2 {
 }
 
 .ssa{
-    margin-top: ;
-    margin-left: 200px;
 
+    justify-content: center;
 }
 
 .img3{
-    width: 230px;
+    width: 240px;
     display: block;
-    margin-top: -275px;
-    margin-left: 50px;
-    border-radius: 50%;
+    /* margin: 0 auto; */
+    margin-left: 550px;
+    margin-top:-350px;
+    border-radius: 50%; 
 }
 .testconnect{
-    margin-top: 58px;
-    margin-left: 90px;
+    margin: 2.5rem 36rem;
     color: #74f0a2;
     font-size: 20px;
 }
@@ -179,10 +180,17 @@ h2 {
 .a01{
     text-decoration: none;
     color: #74f0a2;
+    font-size: 23px;
+}
+
+.a01:hover{
+    
+    color: rgb(249, 249, 249);
+    padding: 0 5px;
 }
 
 
-.slide_2{
+/* .slide_2{
     margin-top: -230px;
     
 }
@@ -203,7 +211,7 @@ h2 {
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 20px;
-    }
+    } */
 
     .a000{
         text-decoration: none;
@@ -227,6 +235,11 @@ h2 {
         padding: 60px 40px;
         border-radius: 80px;
     }
+    .img5:hover{
+       transition: all .5s;
+       padding: 38px;
+       border-radius: 50px;
+    }
 
     .ppp{
         color:#74f0a2;
@@ -235,6 +248,12 @@ h2 {
         font-size: 25px;
     }
 
+    .ppp:hover{
+        background-color:rgb(1, 10, 34);
+        transition: all .5s;
+        border-radius: 50px;
+        padding: 5px;
+    }
     .slide4{
         float: right;
         background-color:rgb(1, 10, 34);
@@ -262,7 +281,6 @@ h2 {
 }
 
 .slide5{
-    /* border: 2px solid white; */
     width: 90%;
     height: 400px;
     margin-top: 25px;
@@ -322,24 +340,23 @@ input[type=text], select {
 }
 
 .a1:hover{
-    background-color: #74f0a2;
+    transition: all .5s;
+    padding: 10px;
 }
 
 .logo2{
     width: 30px;
     opacity: .5;
+    margin-top:-50px;
+    margin-left: -18px;
 }
 
 span{
     color: white;
 }
 
-@media screen and (max-width: 600px) {
-    .nav1 a:not(:first-child) {display: none;}
-    .nav1 a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
+
+
+
+
   
