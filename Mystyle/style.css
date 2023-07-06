@@ -134,9 +134,10 @@ h2 {
 .h_4{
 
     color: #74f0a2;
-    margin-top: 10px;
-    margin-left: 710px;
+    margin-top: 45px;
+    margin-left: 660px;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .parent{
@@ -355,7 +356,78 @@ span{
     color: white;
 }
 
+@media only screen and (max-width: 440px) {
+    
+    header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
 
+    .logo1 {
+        margin: 12px 20px;
+    }
+
+    .nav1 {
+        /* margin-right: 20px; */
+        /* float: left; */
+        display: inline-flex;
+        flex-wrap: wrap;
+        
+
+        
+    }
+                .slide1 {
+                margin-left: 0;
+                width: 30rem;
+            }
+
+            .img1 {
+                margin-top: 10px;
+                margin-left: calc(50% - 100px);
+                width: 300px;
+            }
+
+            h1 {
+                font-size: 20px;
+                width: 100%;
+                float: right;
+                margin-top: -190px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-top: 240px;
+                margin-left: 20px;
+            }
+
+            /* Section 2 */
+            .slide2 {
+                margin-left: 0;
+            }
+
+            /* Section 3 */
+            .slide3,
+            .slide4 {
+                margin-left: 0;
+            }
+
+            .img5 {
+                width: 150px;
+            }
+
+            /* Footer */
+            .footer1 {
+                margin-top: 80px;
+                margin-left: 30px;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+            }
+            
+        }
+   
 
 
 
